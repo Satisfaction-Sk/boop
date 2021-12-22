@@ -1,7 +1,8 @@
 body{
     background-color:#1a1a1a;
     color: azure;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Agency Fb', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -15,7 +16,7 @@ h1{
 #titre a{
     text-decoration: none;
     color: azure;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Agency Fb', sans-serif;
 }
 
 nav ul {
@@ -53,7 +54,7 @@ hr{
     display: none;
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     overflow: hidden;
     padding: 30px;
     margin: 0 auto;
@@ -87,7 +88,7 @@ li:focus {
     
     top: 50%;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
 
@@ -97,9 +98,14 @@ li:focus {
 }
 
 .desc{
-
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 }
+
+/* img:hover {
+    transform: scale(1.5);
+} */
 
 /* Responsive  */
 
