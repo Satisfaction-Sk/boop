@@ -12,6 +12,12 @@ h1{
     font-size: 100px;
     text-align: center;
 }
+h2{
+    
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: lighter;
+}
 
 #titre a{
     text-decoration: none;
