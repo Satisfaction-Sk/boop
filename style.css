@@ -17,6 +17,7 @@ h2{
     font-size: 30px;
     text-decoration: underline;
     font-weight: lighter;
+    color: white;
 }
 
 #titre a{
@@ -172,3 +173,5 @@ li:focus {
         margin-right: auto
 
     }
+
+   
