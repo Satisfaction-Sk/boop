@@ -55,8 +55,11 @@ nav ul li{
     text-decoration: none;
     color: azure;
     cursor: pointer;
-    border: outset 2px ;
+    /* border: outset 2px; */
+    /* border-bottom: 2px solid; */
 }
+
+
 
 
 hr{
@@ -86,16 +89,18 @@ hr{
 
 
 li:hover {
-    background-color: rgb(73, 73, 73);
+    background-color: #212121;
+    /* color: aqua; */
+    
 }
 
-li:active {
+/* li:active {
     color: rgb(0, 0, 0);
 }
 
 li:focus {
     color: rgb(166, 255, 0);
-}
+} */
 
 @keyframes fadeIn {
         0% {opacity:0;}
