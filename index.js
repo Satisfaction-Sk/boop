@@ -1,4 +1,6 @@
+
 $('#filters li').click(function(){
+
 	// on recupère la valeur du filtre
 	value = $(this).data('filter');
 	// on enlève la classe active de l'ancien élément
@@ -18,3 +20,8 @@ $('#filters li').click(function(){
         
 	});
 });
+
+
+$('#filters li').click( function() {
+	$('.home').css('display', 'none');
+  } );
