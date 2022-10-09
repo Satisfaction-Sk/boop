@@ -1,0 +1,22 @@
+wsh pour add un slider vas dans ton html recup toute une div slider 
+    - fait ton copier coller 
+    - change les images et leurs class, pour la class tu garde mySlides avec le numero de ton slider (genre si c'est ton 6 tu meys mySlides6) 
+    - et modifier ces deux lignes : 
+
+                <button class="btn-left" onclick="plusDivs(-1, 2)"> 
+                    et 
+                <button class="btn-right" onclick="plusDivs(1, 2)">
+
+        add +1 aux 2 dernieres values genre ici les 2 en 3 hop 
+
+ensuite check ton js en baaaaas la  et modifie ca : 
+
+var slideIndex = [1, 1, 1];(ajoute un 1 dans ce tableau a chaque slider que tu ajoute donc = [1, 1, 1, 1])
+var slideId = ["mySlides1", "mySlides2","mySlides3"] (ici tu add ton nouveau slider donc ,["mySlides1", "mySlides2","mySlides3","mySlides4"] )
+showDivs(1, 0);
+showDivs(1, 1);
+showDivs(1, 2);
+
+(et ici ajoute la meme mais avec un 3 a la place du 2 si c'est ton 4em slide donc : showDivs(1, 3); )
+
+hesite pas si t'as besoin! 

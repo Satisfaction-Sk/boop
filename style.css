@@ -88,19 +88,15 @@ hr{
 
 
 
+
+
 li:hover {
     background-color: #212121;
     /* color: aqua; */
     
 }
 
-/* li:active {
-    color: rgb(0, 0, 0);
-}
 
-li:focus {
-    color: rgb(166, 255, 0);
-} */
 
 @keyframes fadeIn {
         0% {opacity:0;}
@@ -144,7 +140,42 @@ a:visited {
     margin-bottom: 100px;
 }
 
+/* ------------------------ style -------------- */
 
+
+.slider{
+    margin-bottom: 25px;
+}
+.slider button {
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.slider img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 800px;
+    max-height: 450px;
+}
+
+
+
+.btns-slider{
+    /* margin-left: 47%; */
+    margin-top: 20px;
+    text-align: center;
+    
+
+   
+}
+.material-symbols-outlined {
+    color: azure;
+}
 
 
 
